@@ -401,9 +401,9 @@ def eval_genomes(genomes, config):
         draw_window(WIN, birds, pipes, base, score, gen, pipe_ind)
 
         # break if score gets large enough
-        '''if score > 20:
+        if score > 10:
             pickle.dump(nets[0],open("best.pickle", "wb"))
-            break'''
+            break
 
 
 def run(config_file):
@@ -430,6 +430,7 @@ def run(config_file):
 
     # show final stats
     print('\nBest genome:\n{!s}'.format(winner))
+    visualize.draw_net(config, winner, True)
 
 
 if __name__ == '__main__':
