@@ -10,5 +10,5 @@ Here is a video of all the models in the gene pool going through the evolution p
 ![](https://github.com/nick-pellegrin/NEAT-Flappy-Bird/blob/main/DEMO.gif)  
 
 # Future Progress
-In the future I plan to use NEAT to evolve spiking neural networks instead of evolving networks using standard statistical perceptrons.  My initial progress in this area is evident by my XOR spiking neural network test and my progress with
+In the future I plan to use NEAT to evolve spiking neural networks instead of evolving networks using standard statistical perceptrons.  My initial progress in this area is evident by my XOR spiking neural network test and my progress with config_spiking.txt and flappy_bird_spiking.py.
 
