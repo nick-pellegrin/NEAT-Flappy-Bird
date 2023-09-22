@@ -1,18 +1,3 @@
-[![Run on Repl.it](https://repl.it/badge/github/techwithtim/NEAT-Flappy-Bird)](https://repl.it/github/techwithtim/NEAT-Flappy-Bird)
 # NEAT-Flappy-Bird
-An AI that plays flappy bird! Using the NEAT python module.
+This project runs the NEAT algorithm to train an ai agent to play flappy bird (in model.py).  NEAT stands for neuro-evolution of augmenting topologies, and this algorithm essentially creates a pool of genomes corresponding to a different ai model.  In each generation, each model is ranked based on its fitness score and models with similar enough genomic distances have the opportunity to mate, or aggregate the parent models to create a unique child model.  Additionally, between generations, there is a probability for mutation as defined by the config-feedforward.txt file for traits such as adding/removing connections, connection weights, adding/removing nodes, activation functions, etc.
 
-# Instructions
-Simply run *flappy_bird.py* and watch an AI start training itself to play the game of flappy bird!
-
-# Video Tutorial
-
-You can view on the details of this project here: https://www.youtube.com/watch?v=OGHA-elMrxI
-
-# Run in Gitpod
-
-You can also run NEAT-Flappy-Bird in Gitpod, a free online dev environment for GitHub:
-
-If you're intersted in a paid subscription with GitPod use the coupon code: TECHWITHTIM19
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/techwithtim/NEAT-Flappy-Bird/blob/master/flappy_bird.py)
